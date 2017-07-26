@@ -6,7 +6,7 @@ This is a personal vim configuration designed for no specific programming langua
 Screenshots
 -----------
 
-![Screenshot](https://github.com/hanbinhu/vimconfig/screenshots/normal.png)
+![Screenshot](/screenshots/normal.png)
 
 Plugin Integration
 ------------------
