@@ -1,7 +1,17 @@
 Vim Configuration
 =================
 
-This is a personal vim configuration designed for no specific programming languages. It integrates several plugins including
+This is a personal vim configuration designed for no specific programming languages.
+
+Screenshots
+-----------
+
+![Screenshot](https://github.com/hanbinhu/vimconfig/screenshots/normal.png)
+
+Plugin Integration
+------------------
+
+This `vimrc` configuration integrates several plugins, which are listed as below.
 
 * Plugin management: [Vundle](https://github.com/VundleVim/Vundle.vim)
 * Good-looking statusline: [Airline](https://github.com/vim-airline/vim-airline) and its corresponding [theme](https://github.com/vim-airline/vim-airline-themes)
