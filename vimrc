@@ -29,7 +29,15 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'ervandew/supertab'
-" Plugin 'scrooloose/syntastic'
+
+if has("patch-7.4-1486")
+Plugin 'scrooloose/syntastic'
+endif
+
+if has("patch-7.4-1578") && executable("cmake")
+Plugin 'Valloric/YouCompleteMe'
+endif
+
 call vundle#end()
 
 " Enable filetype plugins indent and syntax
@@ -195,12 +203,12 @@ noremap <silent><expr> ?  incsearch#go(<SID>incsearch_config({'command': '?'}))
 noremap <silent><expr> g/ incsearch#go(<SID>incsearch_config({'is_stay': 1}))
 
 " Syntastic
-" let g:syntastic_error_symbol = '✘'
-" let g:syntastic_warning_symbol = "▲"
-" let g:syntastic_always_populate_loc_list = 1
-" let g:syntastic_auto_loc_list = 1
-" let g:syntastic_check_on_open = 0
-" let g:syntastic_check_on_wq = 0
+let g:syntastic_error_symbol = '✘'
+let g:syntastic_warning_symbol = "▲"
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 
 " CtrlP
 let g:ctrlp_map = '<c-p>'

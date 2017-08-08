@@ -28,6 +28,16 @@ This `vimrc` configuration integrates several plugins, which are listed as below
 * Undo history browser: [UndoTree](https://github.com/mbbill/undotree)
 * TAB for completion: [Supertab](https://github.com/ervandew/supertab)
 * C/C++ header file and implementation file switch: [a.vim](https://github.com/vim-scripts/a.vim)
+* Syntax checker: [Syntastic](https://github.com/scrooloose/syntastic)
+* Auto Completion: [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+
+Requirements
+------------
+
+Most of the plugin should work fine with Vim 7.4. In order to make use of YouCompleteMe,
+make sure you have Vim 7.4.1578 or higher version with Python 2 or Python 3 support and 
+preinstalled cmake and python-dev. In order to use Syntastic, make sure you have Vim 7.4.1486
+or higher version.
 
 Installation
 ------------
@@ -36,3 +46,4 @@ Installation
 2. Make new directories named as `backup`, `bundle`, `swp`, `view` in `~/.vim/`.
 3. Install [Vundle](https://github.com/VundleVim/Vundle.vim) Plugin and run `:PluginInstall` inside `vim`.
 4. Install [powerline-fonts](https://github.com/powerline/fonts) and set the terminal font to your preference.
+5. Compile YouCompleteMe with Clang using the following command `./install.py --clang-complete` under `~/.vim/bundle/YouCompleteMe` folder.
