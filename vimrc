@@ -29,6 +29,7 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'ervandew/supertab'
+Plugin 'vim-scripts/Conque-GDB'
 
 if has("patch-7.4-1486")
 Plugin 'scrooloose/syntastic'

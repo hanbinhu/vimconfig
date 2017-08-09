@@ -30,6 +30,7 @@ This `vimrc` configuration integrates several plugins, which are listed as below
 * C/C++ header file and implementation file switch: [a.vim](https://github.com/vim-scripts/a.vim)
 * Syntax checker: [Syntastic](https://github.com/scrooloose/syntastic)
 * Auto Completion: [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
+* Debugger Support: [Conque-GDB](https://github.com/vim-scripts/Conque-GDB)
 
 Requirements
 ------------
