@@ -31,6 +31,7 @@ This `vimrc` configuration integrates several plugins, which are listed as below
 * Syntax checker: [Syntastic](https://github.com/scrooloose/syntastic)
 * Auto Completion: [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 * Debugger Support: [Conque-GDB](https://github.com/vim-scripts/Conque-GDB)
+* Documentation Generation: [DoxygenToolkit](https://github.com/vim-scripts/DoxygenToolkit.vim)
 
 Requirements
 ------------
