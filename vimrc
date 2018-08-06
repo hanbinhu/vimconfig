@@ -109,6 +109,10 @@ nnoremap <down> :tabn<cr>
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
+if has("gui_running")
+    set guioptions-=T
+    set guifont=DejaVu\ Sans\ Mono\ for\ powerline\ book\ 10
+endif
 " Initial size of the vim window
 " if has("gui_running")
   " GUI is running or is about to start.
